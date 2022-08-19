@@ -32,8 +32,6 @@ $(".slideshow")
       );
     });
 
-    const cric =
-      "cricket is the best game possibly the worlds only game that can go to 5 days and you wont get a result";
     // prepare navigation and set navigation items on the right place
     navigationItem.each(function (index, elem) {
       TweenMax.set(elem, {
@@ -131,7 +129,6 @@ $(".slideshow")
           "+=0.3"
         );
     }
-
     // click/hover on items
     navigationItem.on("mouseenter", setTweenValues);
     navigationItem.on("click", function () {
